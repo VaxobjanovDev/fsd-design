@@ -1,0 +1,45 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "types": ["node"],
+    "sourceMap": false,
+    "target": "es5",
+    "lib": ["es5",
+      "dom",
+      "dom.iterable",
+      "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": "./src",
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "@/*": ["*"],
+      "app/*": ["app/*"],
+      "pages/*": ["pages/*"],
+      "widgets/*": ["widgets/*"],
+      "features/*": ["features/*"],
+      "entities/*": ["entities/*"],
+      "shared/*": ["shared/*"]
+    }
+  },
+  "include": [ "**/*.ts",
+    "src",
+    "vite.config.ts",
+    "src/custom.d.ts",
+    "src/types/**/*.d.ts",
+    "**/types"
+  ],
+}
