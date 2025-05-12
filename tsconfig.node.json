@@ -3,9 +3,10 @@
     "composite": true,
     "skipLibCheck": true,
     "module": "ESNext",
-    "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "strict": false,
+    "target": "ESNext",
+    "moduleResolution": "nodenext",
+    "strict": false
   },
   "include": [
     "vite.config.ts"
