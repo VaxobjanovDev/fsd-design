@@ -27,8 +27,7 @@ src/
 ├── widgets/      # Independent UI blocks with state and logic (compose entities and features)
 ├── features/     # User-facing features with business value (use entities and shared)
 ├── entities/     # Domain-specific objects and their logic (independent)
-├── shared/       # Reusable low-level utilities, UI components, constants, configs (independent)
-└── main.tsx      # Entry point
+└── shared/       # Reusable low-level utilities, UI components, constants, configs (independent)
 ```
 
 ## About
