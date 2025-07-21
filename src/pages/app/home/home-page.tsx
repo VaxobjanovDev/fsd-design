@@ -1,7 +1,7 @@
 import reactLogo from 'shared/assets/logos/react.svg'
 import viteLogo from 'shared/assets/logos/vite.svg'
 import { Logo } from 'shared/ui/logo'
-import { Counter } from '@/widgets/counter/ui/counter'
+import { Counter } from 'widgets/counter/ui/counter'
 import React from 'react'
 
 export const HomePage = () => (

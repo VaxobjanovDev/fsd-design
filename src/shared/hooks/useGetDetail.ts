@@ -57,6 +57,7 @@ export const useGetDetail = <T>(
     getDetail, // Function to manually fetch data
     result: (data as GetListResponse<T>) || ({} as GetListResponse<T>),
     loading: isLoading,
-    refetch // Expose refetch function from useQuery
+    refetch, // Expose refetch function from useQuery,
+    error
   }
 }
