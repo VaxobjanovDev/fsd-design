@@ -25,7 +25,7 @@ const createRequestOptions = (options: AxiosRequestConfig, isPrivate = true): Ax
   }
 
   return {
-    baseURL: import.meta.env.BASE_URL,
+    baseURL: import.meta.env.VITE_BASE_URL,
     ...options,
     headers
   }
